@@ -1,0 +1,41 @@
+# Next.js build e cache
+.next/
+out/
+.turbo/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependências
+node_modules/
+
+# Produção / Builds gerais
+dist
+dist-ssr
+*.local
+
+# Variáveis de Ambiente (Segurança)
+.env
+.env.*
+!.env.example
+
+# Arquivos do TypeScript / Serverless
+*.tsbuildinfo
+next-env.d.ts
+
+# Editor e Sistema Operacional
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
